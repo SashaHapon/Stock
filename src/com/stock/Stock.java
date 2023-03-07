@@ -7,6 +7,7 @@ import com.stock.goods.TV;
 import java.util.Scanner;
 
 public class Stock {
+    int eee;
     private int sizeOfStock;
     public void set_sizeOfStock( int size){
        this.sizeOfStock = size;
