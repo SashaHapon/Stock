@@ -1,6 +1,7 @@
 package com.stock;
 
 public class Goods {
+    int eee;
     public static String priseOfGood;
     static String nameOfGood;
     public static void setPriseOfGood(String prise){
