@@ -11,7 +11,7 @@ public class Main {
         int size = in.nextInt();
         stock.setSizeOfStock(size);
         stock.setArrayOfGoods(goods.filledStock(stock.getSizeOfStock()));
-        stock.getOneGood(1);
+        stock.getOneGood(0);
         System.out.println("Full prise is: " + stock.getFullPrice());
     }
 }
